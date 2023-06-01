@@ -1,0 +1,121 @@
+
+  .entete h2 {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .active :hover{
+    background: #C4E4EB;
+    border-radius: 12px;
+    color: white;
+  }
+  
+  
+.col{
+  border-radius:2px ;
+}
+.submit1{
+  width: 10vw;
+  border-radius: 10px;
+  font-size:  19px;
+  color: white;
+  background-color: #1898A8;
+  border: 2px solid #1898A8;;
+  border-width: 3px;
+  cursor: pointer;
+}
+.submit1:hover{
+  color:  #1898A8;;
+  background-color: white;
+  border: 2px solid #1898A8;
+  border-width: 2px;
+  cursor: pointer;
+}
+.submit4 {
+  width: 50vw;
+  border-radius: 10px;
+  font-size:  20px;
+  color: white;
+  background-color: #1898A8;
+  border: 2px solid #1898A8;;
+  border-width: 3px;
+  cursor: pointer;
+}
+.span-p{
+  margin-top: -300px;
+}
+.essaye{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sujet{
+    height: 40px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    background-color: #cccccc84;
+}
+.main{
+    padding-bottom: 45px;
+}
+.nav-T{
+    height: 400px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    background-color: #cccccc84;
+}
+.submit-sc{
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    font-size:  20px;
+    color: white;
+    background-color: #1898A8;
+    border: none;
+    cursor: pointer;
+}
+.chart-A{
+  width: 95%; 
+  height:23vh;
+   padding-top:50px ;
+  background-color: #4996A6; 
+  border: 3px solid #4996A6
+}
+.chart-b{
+  width: 90%;
+   height:23vh; 
+   padding-top:50px ;
+    border: 3px solid #4996A6;
+}
+@media screen and(max-width: 375px) {
+  
+}
+@media screen and (max-width:768px) {
+.img{
+  display: none;
+}
+
+.essaye{
+  justify-content: center;
+}
+  .disap{
+    display: none;
+  }
+  #pho{
+    width: 10px;
+    height: 10px;
+  }
+  
+  div.my-3{
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+  }
+  /* .tab-fac{
+    overflow-x: scroll;
+  } */
+  .table-responsive{
+    overflow-x: scroll;
+  }
+ 
+}
